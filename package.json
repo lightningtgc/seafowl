@@ -1,1 +1,21 @@
+{
+  "name": "seafowl",
+  "version": "0.1.0",
+  "description": "A lightweight MVVM js library.",
+  "author": "gctang <tangguichuan@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lightningtgc/seafowl.git"
+  },
+  "devDependencies": {
+    "babel": "^5.4.3",
+    "es5-shim": "4.1.0",
+    "babelify": "6.1.1",
+    "del": "1.1.1",
+    "gulp": "^3.8.11",
+    "node-libs-browser": "^0.5.0",
+    "webpack": "^1.9.7"
+  }
+}
 
