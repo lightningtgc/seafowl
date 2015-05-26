@@ -5,6 +5,15 @@ module.exports = {
   output: {
     path: __dirname + '/build',
     filename: 'bundle.js'
+  },
+  module: {
+    loaders: [
+      {
+        test: /src\/.+.js$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader'
+      }
+    ]
   }
 };
 
